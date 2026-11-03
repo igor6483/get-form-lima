@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgb(30, 121, 0);
+    color:rgb(255, 255, 255);
+    padding:1%;
+}
+
+main{
+background-color: rgb(223, 255, 244);
+}
+
+#conteiner-titulo-lista{
+    padding:1%;
+    
+}
+
+a{
+    color:rgb(0, 0, 0) ;
+}
+
+.capas{
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.card-conteudo{
+    background-color: rgb(155, 246, 154);
+    padding:1%;
+    width: 360px;
+    height: 130px;
+    border-radius: 30px;
+    padding:4%; 
+}
+.card-capa img{
+    width: 360px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
